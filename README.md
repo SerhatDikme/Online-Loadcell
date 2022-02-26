@@ -1,7 +1,7 @@
 
 Latest version of HX711 and changelog here: https://github.com/olkal/HX711_ADC/releases
 
-It is an example of precision balance construction. The HX711 library is used. Data retrieval from the HX711 is done without blocking the mcu, also on the 10SPS rate setting and with Multiple HX711's performing conversions simultaneously. Tare function can also be performed without blocking the mcu.
+It is an example of precision scale construction. It is possible to see it from the ip address with the help of NodeMcu.. The HX711 library is used. Data retrieval from the HX711 is done without blocking the mcu, also on the 10SPS rate setting and with Multiple HX711's performing conversions simultaneously. Tare function can also be performed without blocking the mcu.
 
 Filtering and smoothing: "Moving average" method from a rolling data set combined with removal of high/low outliers is used for the retrieved value.
 
